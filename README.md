@@ -6,7 +6,7 @@ jQuery steroids to work easily with [BEM](https://en.bem.info/method/) modifiers
 
 ## Disclaimer
 
-Sometimes the BEM modifiers manipulation with JavaScript is very boring. We should write verbose classes to change elements status and this is bad.
+Sometimes the BEM modifiers (when used to represents statuses) manipulation with JavaScript is very boring. We should write verbose classes to change elements status and this is bad.
 
 This problem can be solved with jQuery.toggleModifier. Look this case:
 
