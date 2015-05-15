@@ -1,5 +1,8 @@
 {
   "name": "jQuery.toggleModifier",
+  "scripts": {
+    "test": "grunt test"
+  },
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-qunit": "0.7.0"

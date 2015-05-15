@@ -1,5 +1,9 @@
-before_script:
-  - sudo npm install -g grunt
-  - bower install
+language: node_js
 
-script: grunt test --verbose --force
+before_install:
+  - npm install -g grunt-cli
+  - npm install -g bower
+
+install:
+  - npm install
+  - bower install
