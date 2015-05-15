@@ -1,0 +1,7 @@
+{
+  "name": "jQuery.toggleModifier",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-qunit": "0.7.0"
+  }
+}
