@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/viniciusalmeida/jQuery.toggleModifier.svg)](https://travis-ci.org/viniciusalmeida/jQuery.toggleModifier)
 
-jQuery steroids to work easily with BEM modifiers.
+jQuery steroids to work easily with [BEM](https://en.bem.info/method/) modifiers.
 
 ## Disclaimer
 
