@@ -4,6 +4,12 @@
 
 jQuery steroids to work easily with [BEM](https://en.bem.info/method/) modifiers.
 
+## Install via [Bower](http://bower.io)
+
+```bash
+$ bower install jQuery.toggleModifier
+```
+
 ## Disclaimer
 
 Sometimes the BEM modifiers (when used to represents statuses) manipulation with JavaScript is very boring. We should write verbose classes to change elements status and this is bad.
