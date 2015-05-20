@@ -1,6 +1,6 @@
 {
   "name": "jQuery.toggleModifier",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "authors": [
     "vinialm88@gmail.com"
   ],
@@ -9,9 +9,18 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "tests",
+    "Gruntfile.js",
+    "package.json"
   ],
+  "keywords": [
+    "jquery",
+    "plugin",
+    "bem",
+    "modifier",
+    "javascript"
+  ],
+  "homepage": "https://github.com/viniciusalmeida/jQuery.toggleModifier",
   "devDependencies": {
     "jquery": "~2.1.4",
     "qunit": "~1.18.0"
