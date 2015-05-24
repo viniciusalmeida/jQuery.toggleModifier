@@ -1,3 +1,5 @@
+/* global QUnit */
+
 QUnit.module('Unit #__stringContainsModifier', {
   beforeEach: function() {
     this.subjectMethod = $.fn.toggleModifier.methods.__stringContainsModifier;

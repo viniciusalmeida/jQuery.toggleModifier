@@ -1,3 +1,5 @@
+/* global QUnit */
+
 QUnit.module('Unit #__getClasses', {
   beforeEach: function() {
     $('#qunit-fixture').append($('<div>', { class: 'class-a' }));

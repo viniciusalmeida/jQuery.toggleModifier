@@ -1,3 +1,5 @@
+/* global QUnit */
+
 QUnit.module('General behavior', {
   beforeEach: function() {
     $('#qunit-fixture').append($('<div>', { class: 'block__element' }));
