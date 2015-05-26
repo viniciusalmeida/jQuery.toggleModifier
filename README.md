@@ -1,6 +1,7 @@
 # jQuery.toggleModifier
 
 [![Build Status](https://travis-ci.org/viniciusalmeida/jQuery.toggleModifier.svg)](https://travis-ci.org/viniciusalmeida/jQuery.toggleModifier)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 jQuery steroids to work easily with [BEM](https://en.bem.info/method/) modifiers.
 
