@@ -42,3 +42,39 @@ QUnit.test('Remove the correct modifier when the element contains two or more', 
   assert.ok(this.subject.hasClass('block__element--another-modifier'),
     'The modifier not toggled remains equal');
 });
+
+QUnit.test('Add a modifier', function(assert) {
+  this.subject.addClass('block__element');
+  this.subject.addModifier('modifier');
+
+  assert.ok(this.subject.hasClass('block__element--modifier'),
+    'The modifier was added');
+});
+
+QUnit.test('Add a modifier only once (I\'ll try many)', function(assert) {
+  this.subject.addClass('block__element');
+  this.subject.addModifier('modifier');
+  this.subject.addModifier('modifier');
+  this.subject.addModifier('modifier');
+
+  assert.ok(this.subject.hasClass('block__element--modifier'),
+    'The modifier was added only once');
+});
+
+QUnit.test('Remove a modifier', function(assert) {
+  this.subject.addClass('block__element--modifier');
+  this.subject.removeModifier('modifier');
+
+  assert.ok(this.subject.hasClass('block__element'),
+    'The modifier was removed');
+});
+
+QUnit.test('Remove a modifier only once (I\'ll try many)', function(assert) {
+  this.subject.addClass('block__element--modifier');
+  this.subject.removeModifier('modifier');
+  this.subject.removeModifier('modifier');
+  this.subject.removeModifier('modifier');
+
+  assert.ok(this.subject.hasClass('block__element'),
+    'The modifier was removed only once');
+});
