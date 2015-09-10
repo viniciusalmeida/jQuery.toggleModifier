@@ -37,6 +37,14 @@ But now, with jQuery.toggleModifier we can just evoke `.toggleModifier()`:
 
 And have the same behavior.
 
+You can also just add or remove a modifier like that:
+
+```javascript
+.addModifier('modifier-name');
+// or
+.removeModifier('modifier-name');
+```
+
 ### Backlog
 
 - Allow manipulation of modifiers when the element represents two or more BEM elements.

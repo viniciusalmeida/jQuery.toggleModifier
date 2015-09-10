@@ -1,6 +1,7 @@
 {
   "name": "jQuery.toggleModifier",
   "scripts": {
+    "setup": "npm i && bower install",
     "test": "grunt qunit -v -f"
   },
   "devDependencies": {
