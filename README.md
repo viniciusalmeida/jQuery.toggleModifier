@@ -11,7 +11,15 @@ jQuery steroids to work easily with [BEM](https://en.bem.info/method/) modifiers
 $ bower install jQuery.toggleModifier
 ```
 
-## Disclaimer
+## Install via [Asset-rails](https://rails-assets.org/)
+
+```ruby
+source 'https://rails-assets.org' do
+  gem 'rails-assets-jQuery.toggleModifier'
+end
+```
+
+---
 
 Sometimes the BEM modifiers (when used to represents statuses) manipulation with JavaScript is very boring. We should write verbose classes to change elements status and this is bad.
 
@@ -43,6 +51,8 @@ You can also just add or remove a modifier like that:
 .addModifier('modifier-name');
 // or
 .removeModifier('modifier-name');
+// or
+.hasModifier('modifier-name');
 ```
 
 ### Backlog
