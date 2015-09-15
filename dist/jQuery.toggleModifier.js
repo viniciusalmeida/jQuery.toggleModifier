@@ -21,21 +21,9 @@
     }
   }
 
-  $.fn.toggleModifier = function(modifier) {
-    modify($(this), methods.__toggle, modifier);
-  };
-
-  $.fn.addModifier = function(modifier) {
-    modify($(this), methods.__add, modifier);
-  };
-
-  $.fn.removeModifier = function(modifier) {
-    modify($(this), methods.__remove, modifier);
-  };
-
   var methods = {
     __toggle: function(el, modifier) {
-      if (methods.__elementHasModifier(el, modifier)) {
+      if (methods.__hasModifier(el, modifier)) {
         var classToRemove = methods.__classToRemove(el, modifier);
         el.removeClass(classToRemove);
       } else {
@@ -45,14 +33,14 @@
     },
 
     __add: function(el, modifier) {
-      if (!methods.__elementHasModifier(el, modifier)) {
+      if (!methods.__hasModifier(el, modifier)) {
         var currentClass = methods.__currentElementClass(el);
         el.addClass(currentClass + '--' + modifier);
       }
     },
 
     __remove: function(el, modifier) {
-      if (methods.__elementHasModifier(el, modifier)) {
+      if (methods.__hasModifier(el, modifier)) {
         var classToRemove = methods.__classToRemove(el, modifier);
         el.removeClass(classToRemove);
       }
@@ -70,7 +58,7 @@
       })[0];
     },
 
-    __elementHasModifier: function(el, modifier) {
+    __hasModifier: function(el, modifier) {
       var classes = methods.__getClasses(el),
           iterator;
 
@@ -95,5 +83,21 @@
 
       return false;
     }
+  };
+
+  $.fn.toggleModifier = function(modifier) {
+    modify($(this), methods.__toggle, modifier);
+  };
+
+  $.fn.addModifier = function(modifier) {
+    modify($(this), methods.__add, modifier);
+  };
+
+  $.fn.removeModifier = function(modifier) {
+    modify($(this), methods.__remove, modifier);
+  };
+
+  $.fn.hasModifier = function(modifier) {
+    modify($(this), methods.__hasModifier, modifier);
   };
 }));
