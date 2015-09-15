@@ -4,6 +4,7 @@
   "authors": [
     "vinialm88@gmail.com"
   ],
+  "main": "dist/jQuery.toggleModifier.js",
   "license": "MIT",
   "ignore": [
     "**/.*",
