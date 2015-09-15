@@ -98,6 +98,6 @@
   };
 
   $.fn.hasModifier = function(modifier) {
-    modify($(this), methods.__hasModifier, modifier);
+    return methods.__hasModifier($(this), modifier);
   };
 }));
