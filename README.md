@@ -3,23 +3,7 @@
 [![Build Status](https://travis-ci.org/viniciusalmeida/jQuery.toggleModifier.svg)](https://travis-ci.org/viniciusalmeida/jQuery.toggleModifier)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
-jQuery steroids to work easily with [BEM](https://en.bem.info/method/) modifiers.
-
-## Install via [Bower](http://bower.io)
-
-```bash
-$ bower install jQuery.toggleModifier
-```
-
-## Install via [Asset-rails](https://rails-assets.org/)
-
-```ruby
-source 'https://rails-assets.org' do
-  gem 'rails-assets-jQuery.toggleModifier'
-end
-```
-
----
+jQuery extension to work easily with [BEM](https://en.bem.info/method/) modifiers.
 
 Sometimes the BEM modifiers (when used to represents statuses) manipulation with JavaScript is very boring. We should write verbose classes to change elements status and this is bad.
 
@@ -54,6 +38,26 @@ You can also just add or remove a modifier like that:
 // or
 .hasModifier('modifier-name');
 ```
+
+---
+
+## Install via [Bower](http://bower.io)
+
+```bash
+$ bower install jQuery.toggleModifier
+```
+
+## Install via [Asset-rails](https://rails-assets.org/)
+
+Add in your Gemfile:
+
+```ruby
+source 'https://rails-assets.org' do
+  gem 'rails-assets-jQuery.toggleModifier'
+end
+```
+
+---
 
 ### Backlog
 
