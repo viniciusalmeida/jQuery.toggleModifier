@@ -94,7 +94,7 @@ QUnit.test('Element has not modifier', function(assert) {
     'The element has not modifier');
 });
 
-QUnit.test('Assert the chain for the modifier methods', function(assert) {
+QUnit.test('The chainable methods return Subject\'s instance', function(assert) {
   assert.deepEqual(this.subject.toggleModifier('modifier'), this.subject);
   assert.deepEqual(this.subject.addModifier('modifier'), this.subject);
   assert.deepEqual(this.subject.removeModifier('modifier'), this.subject);
