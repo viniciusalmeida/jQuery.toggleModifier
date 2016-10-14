@@ -1,5 +1,6 @@
 {
   "name": "jQuery.toggleModifier",
+  "description": "jQuery extension to work easily with BEM modifiers.",
   "version": "1.0.0",
   "main": "dist/jQuery.toggleModifier.js",
   "scripts": {
