@@ -1,6 +1,6 @@
 {
   "name": "jQuery.toggleModifier",
-  "version": "0.3.1",
+  "version": "1.0.0",
   "main": "dist/jQuery.toggleModifier.js",
   "scripts": {
     "setup": "npm i && bower install",
