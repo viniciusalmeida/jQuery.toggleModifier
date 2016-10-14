@@ -41,13 +41,19 @@ You can also just add or remove a modifier like that:
 
 ---
 
-## Install via [Bower](http://bower.io)
+## Install via [npm](https://npmjs.com)
+
+```bash
+$ npm install jQuery.toggleModifier
+```
+
+## Install via [Bower](https://bower.io)
 
 ```bash
 $ bower install jQuery.toggleModifier
 ```
 
-## Install via [Asset-rails](https://rails-assets.org/)
+## Install via [Asset-rails](https://rails-assets.org)
 
 Add in your Gemfile:
 
@@ -62,3 +68,11 @@ end
 ### Backlog
 
 - Allow manipulation of modifiers when the element represents two or more BEM elements.
+
+---
+
+### Contributors
+
+* [@brunoskonrad](https://github.com/brunoskonrad)
+* [@viniciuspalma](https://github.com/viniciuspalma)
+* [@pedrofelipe](https://github.com/pedrofelipe)
